@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+}
+
+.profile{
+  width: 35%;
+  min-height: 1100px;
+  background-color: #d35f32;
+  z-index: 1;
+  position: sticky;
+  
+
+  
+}
+
+.container{
+  width: 65%;
+  min-height: 100%;
+  background-color: #dcdad5;
+}
+
+.pic{
+  width: 200px;
+  height: 250px;
+  border-radius: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  
+}
+
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 80px;
+  color: #1a6331;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.job{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  color: #d35f32;
+  text-align: center;
+  margin-top: -30px;
+} 
+
+.about{
+  font-family: 'Roboto Condensed', sans-serif;
+   color: aliceblue;
+   font-size: 15px;
+   margin-top: 50px;
+   margin-left: 20px;
+   margin-right: 20px;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+h2{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  color: aliceblue;
+  margin-left: 30px;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  line-height: 5px;
+  text-align: center;
+}
+
+.contact i{
+  font-size: 12px;
+}
+
+.skills ul{
+  list-style: none;
+}
+
+.skills{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  color: aliceblue;
+  margin-left: -20px;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  
+}
+
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 35px;
+  color: black;
+  margin: 100px;
+}
+
+table{
+  width:75%;
+  
+}
+
+td{
+  height: 50px;
+  text-align: center;
+}
+
+table, th, td{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: -30px;
+  margin-left: 100px;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+}
+
+
+
+
+
+

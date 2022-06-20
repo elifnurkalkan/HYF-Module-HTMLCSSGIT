@@ -1,0 +1,23 @@
+1.How do I create a hidden file or folder? How do I display it in the CLI?
+
+	We can create hidden file or folder with .(dot) sign before the file or folder. For example;
+
+	mkdir .hiddenFolder
+	touch .hiddenFile
+
+	And the ls -a command will list the whole list of the current directory including the hidden files.
+
+
+
+2.How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+	We can create multiple nested directories by typing -p after the mkdir command.
+	mkdir -p /these/folders/are/just/for/fun
+
+
+3.How do I append a message to a file, without a newline character, so the output would be:
+first message
+second message
+
+	We can do it with with,
+		echo first message >>append.txt
+		echo second message>>append.txt
