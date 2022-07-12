@@ -1,0 +1,951 @@
+body{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  margin-top: -10px;
+  background-color: white;
+}
+
+.patreon-logo img{
+  width: 30px;
+  height: 30px ;
+  margin: 10px;
+  margin-top: 22px;
+}
+
+.menu{
+  display: flex;
+  float: left;
+
+}
+
+ul{
+  list-style: none;
+  margin-left: -25px;
+}
+
+ul li{
+  display: flex;
+  float: left;
+  margin: 10px;
+  padding-right: 20px;
+  
+}
+
+.navbar-right{
+  display: flex;
+  float: right;
+  margin: 20px;
+  padding-left:40px ;
+}
+
+.menu ul li i{
+  padding-top: 5px;
+  padding-left: 2px;
+  font-size: 10px;
+}
+
+
+.find{
+  display: flex;
+  margin-left: auto;
+  background-color: rgb(245, 244, 242);
+  border-radius: 9999px;
+  cursor: default;
+  padding: 8px 12px;
+}
+
+.find-icon{
+  width: 20%;
+}
+
+.find-icon i{
+  color: #6f6c64;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.findCreator{
+  width: 90%;
+}
+
+.write{
+  background-color: rgb(245, 244, 242);
+  border: 0px;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.log-in{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.login-link{
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 3;
+  text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+.create-patreon{
+  background-color: rgb(245, 55, 78);
+  border-radius: 9999px;
+  color: #fff;
+  border: 2px solid transparent;
+  line-height: 2;
+  padding: 8px 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.create-patreon:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(245, 55, 78);
+  color: rgb(245, 55, 78);
+}
+
+.button{
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover{
+  color:rgb(245, 55, 78) ;
+}
+
+/* Section1-ChangeTheWay */
+
+.changeTheWay{
+  display: flex;
+  width: 100%;
+  height: 510px;
+  background-color: black;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.section1{
+  display: flex;
+  width: 85%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.content{
+  width: 50%;
+  color: rgb(245, 55, 78);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: -50px; */
+}
+
+.content h1{
+  color: #f5414e;
+  font-size: 80px;
+  line-height: 70px;
+  text-align: left;
+  text-decoration: none;
+  font-family: Walshelm, sans-serif;
+}
+
+.content p{
+  margin-top: -20px;
+  font-size: 25px;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.getStarted{
+  display: inline-block;
+  background-color: rgb(245, 55, 78);
+  border-radius: 9999px;
+  color: #fff;
+  border: 2px solid transparent;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.contentGif{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGif img{
+  width: 500px;
+  height: 300px;
+}
+
+/* Section2-Search Creators */
+
+.searchCreators{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  font-weight: 700px;
+  font-size: 42px;
+  line-height:100px;
+  text-align: center;
+  text-decoration: none ;
+  font-family: Walshelm, sans-serif;
+}
+
+.searchPart{
+  display: flex;
+  width: 100%;
+}
+
+.searchIconBox{
+  width: 90%;
+  margin-left: 50px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(245, 244, 242);
+  border-radius: 30px;
+  /* height: 50px; */
+}
+
+.searchIcon{
+  width: 5%;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.searchBox{
+  width: 95%;
+}
+
+.findCreator{
+  width: 100%;
+  background-color: transparent;
+  font-size: 15px;
+  border: 0px;
+  margin-top: 12px;
+}
+
+.button2{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.buttonSearch{
+  background-color: rgb(255, 66, 77);
+  border-radius: 9999px;
+  border: 1px solid rgb(255, 66, 77);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+/* Section3-What's Patreon? */
+.whatPatreon{
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section3 h2{
+  font-family: Walshelm, sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-bottom: 15px;
+}
+
+.section3 p{
+  font-size: 1.3rem;
+  line-height: 2.6rem;
+}
+
+/* Section4-It's Easier Than You Think*/
+.easierThan{
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4{
+  width: 75%;
+
+}
+
+.section4 h2{
+  color: #241e12;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  text-align: center;
+  font-family: Walshelm, sans-serif;
+}
+
+.section4 p{
+  color: #241e12;
+  font-size: 1.25rem;
+  line-height: 3.7rem;
+  text-align: center;
+  font-weight: 100;
+}
+
+.easierImg{
+  width: 100%;
+}
+
+/* Footer */
+
+/* .footer{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+} */
+
+.footerSection{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  background-color: black;
+}
+
+.footer-top{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-top h5{
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-top a{
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  max-width: 60%;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: black;
+  padding-bottom: 5px;
+}
+
+.part1{
+  height: 400px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+
+.logo2{
+  width: 60px;
+  margin-bottom: 15px;
+  margin-top: 18px;
+}
+
+.language{
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size:15px;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+.country{
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+.currency{
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.footerProduct{
+  
+  width: 10%;
+  height: 200px;
+}
+
+.footerProduct ul{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+}
+
+.footerProduct ul li{
+  width: 100%;
+}
+
+
+.footerCreators{
+  width: 15%;
+  height: 400px;
+}
+
+.footerCreators ul{
+  list-style: none;
+  width: 100%;
+}
+
+.footerCreators ul li{
+  width: 100%;
+}
+
+
+.footerResources{
+  width: 15%;
+  height: 400px;
+}
+
+.footerResources ul{
+  list-style: none;
+  width: 100%;
+}
+
+.footerResources ul li{
+  width: 100%;
+
+}
+
+.footerCompany{
+  width: 15%;
+  height: 400px;
+}
+
+.footerCompany ul{
+  list-style: none;
+  width: 100%;
+}
+
+.footerCompany ul li{
+  width: 100%;
+
+}
+
+.socialMedia{
+  width: 50%;
+  height: 40px;
+}
+
+.socialMedia ul{
+  display: flex;
+}
+
+.socialMedia ul li{
+  list-style: none;
+}
+
+.socialMedia ul li a{
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #5b5c5e;
+}
+
+.socialMedia .fab{
+  width: 2.25rem;
+  color: white;
+  padding-left: 15px;
+}
+
+
+.contact{
+  width: 90%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgb(255, 255, 255);
+}
+
+.footerFinish{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footerFinish p{
+  margin-right: 40px;
+  font-size:15px;
+}
+
+.footerFinish a{
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  max-width: 60%;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  line-height: 3.2;
+  background-color: transparent;
+  padding-bottom: 5px;
+}
+
+address p{
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 599px) and (max-width: 1024px) {
+  .navbar{
+    height: 140px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  
+
+  .navbar-right{
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+  }
+
+  .navbar-right .find{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .menuNav{
+    display: none;
+  }
+
+  .navbar-right .log-in{
+    height: 60px;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-top: -90px;
+  }
+
+  .navbar-right .create-patreon{
+    margin-top: -90px;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 45%;
+  }
+
+  .burgerMenu{
+    display:block ;
+  }
+
+  /* .find{
+    
+    width: 100%;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+  } */
+
+  .find-icon{
+    width: 4%;
+    flex-wrap: wrap;
+  }
+
+  /* .create-patreon{
+    width: 100%;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+  } */
+
+  .changeTheWay{
+    height: 700px;
+  }
+
+  .contentGif img{
+    width: 300px;
+    height: 200px;
+  }
+
+  /* .section2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .searchPart{
+    display: flex;
+    flex-direction: row;    
+    margin-left: 500px;
+  }
+
+  .searchIconBox{
+    height: 50px;
+    width: 100%;
+    margin-left: -150;
+    display: flex;
+  }
+
+
+.button2{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+} */
+
+  .footerSection{
+    height: 1450px;
+  }
+
+  .footer-top{
+    flex-wrap: wrap;
+    height: 1200px;
+  }
+
+  .part1{
+    width: 100%;
+    height: 220px;
+    margin-left: 20px;
+  }
+
+  .footerProduct{
+    width: 50%;
+    /* height: 220px; */
+    height: auto;
+  }
+
+  .footerCreators{
+    width: 50%;
+    height: auto;
+  }
+
+  .footerResources{
+    width: 50%;
+
+  }
+
+  .footerCompany{
+    width: 50%;
+
+  }
+
+  .socialMedia{
+    width: 100%;
+  }
+
+  .footerFinish{
+    margin-top: -20px;
+  }
+  
+}
+
+@media only screen and (max-width: 599px) {
+
+  .navbar{
+    height: 140px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .menu{
+    width: 30%;
+  }
+
+  
+  .navbar-right{
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .navbar-right .find{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .menuNav{
+    display: none;
+  }
+
+  .navbar-right .log-in{
+    height: 60px;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-top: -90px;
+  }
+
+  .navbar-right .create-patreon{
+    margin-top: -90px;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 45%;
+  }
+  
+
+  .menuNav{
+    display: none;
+  }
+
+ 
+
+  .burgerMenu{
+    display: block;
+
+  }
+
+ 
+  .find-icon{
+    width: 4%;
+
+  }
+
+  .changeTheWay{
+    height: 950px;
+    padding-top: 160px;
+  }
+
+  .section1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content{
+    display: flex;
+    width: 100%;
+    margin-bottom: 65px;
+  }
+
+  content h1{
+    font-size: 2.6rem;
+  };
+
+  .contentGif{
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .contentGif img{
+    width: 500px;
+    height: 400px;
+    margin-bottom: 40px;
+    margin-left: 220px;
+  }
+
+  .searchIconBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    /* margin: 50px; */
+  }
+
+  .searchIcon{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 10%;
+  }
+
+  .searchBox{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    
+
+
+  }
+
+
+   .button2{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* width: 20%; */
+    /* flex-direction: column; */
+    /* margin: 10px; */
+    /* margin-left: 0px; */
+    /* vertical-align: bottom; */
+    margin-top: 50px;
+    margin-left: -370px;
+    width: 100%;
+    margin-top: 60px;
+    /* padding: 12px 30px; */
+  }
+
+  .buttonSearch{
+    width: 100%;
+    margin-left: -20px;
+  }
+
+ 
+
+
+  .whatPatreon{
+    margin-top: 150px;
+  }
+
+  .section4 p{
+    line-height: 1.5em;
+  }
+
+  .footerSection{
+    height: 1450px;
+    padding: 10px;
+  }
+
+  .footer-top{
+    flex-wrap: wrap;
+    height: 1200px;
+  }
+
+  .part1{
+    width: 100%;
+    height: 220px;
+    margin-left: 0;
+  }
+
+  .footerProduct{
+    width: 50%;
+    /* min-height: 200px; */
+    height: auto;
+    overflow: hidden;   
+    line-height: 1em;
+   
+  }
+
+  .footerProduct ul li{
+    line-height: 10px;
+  }
+
+  .footerCreators{
+    width: 50%;
+    /* min-height: 200px; */
+    height: auto;
+    overflow: hidden;
+
+  }
+
+  .footerCreators ul li{
+    line-height: 1px;
+  }
+
+  .footerResources{
+    width: 50%;
+    
+
+  }
+
+  .footerCompany{
+    width: 50%;
+   
+
+  }
+
+  .socialMedia{
+    width: 100%;
+    
+
+  }
+
+  .footerFinish{
+    margin-top: -20px;
+  }
+}
